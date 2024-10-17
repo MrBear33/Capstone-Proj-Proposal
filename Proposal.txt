@@ -1,0 +1,55 @@
+| **Project Proposal**                                                                                                                     |
+|------------------------------------------------------------------------------------------------------------------------------------------|
+				Social event tracker and planner
+
+| **Description**|                                                                                                                                      
+A local event locator to easily find activities near you or in whatever area you are in. Users will be able to create an account and add friends who also register an account. 
+
+| **Stack Focus**                                                                                                          | 		The project will have an evenly focused full-stack approach. Both front-end and back-end will be developed to provide a smooth user experience for finding events based on geo-location. React.js will be used for the front-end, and Node.js with Express for the back-end. |
+
+| **Type**|			
+ The application will be a responsive website that works across desktop,and eventually tablet, and mobile platforms. |
+
+| **Goal**| 			
+The goal is to create a platform where users can discover local events based on their current location, enabling them to explore and participate in concerts, meetups, and other events happening nearby. |
+| **Users**                                                                                                               | The target users are aged 18-45ish who are social, active, and interested in attending local events such as concerts, festivals, or community gatherings. They are tech-savvy and familiar with using web apps. |
+| **Data**                                                                                                                | The app will utilize geo-location data (Google Maps API) to identify users’ locations. An event API (such as Ticketmaster or Eventbrite) will be integrated to provide real-time event information such as event names, dates, venues, and ticketing details. Also considering using a Calendar API so also sync events into your phone calendar.
+
+
+
+
+User flow Example:
+
+Landing Page:
+The user arrives at the homepage and is prompted to allow geo-location tracking or select a location manually.
+Search Events:
+The user enters a location or uses their current location. They can filter the events by date, category, or keyword.
+Browse Events:
+The user browses a list of events in their area, sorted by proximity or relevance. Each event is clickable for more details.
+View Event Details:
+Upon selecting an event, the user views detailed information including the date, time, location, and ticket purchase options.
+User Login/Sign Up:
+Users can log in or create an account to save events, customize search preferences, or manage their profile.
+Save/Share Events:
+Logged-in users can save events to their favorites and share them with others.
+Purchase Tickets (optional):
+If ticket links are available, the user can click to purchase tickets from an external vendor.
+
+
+
+    While the core application will include basic CRUD functionality (such as creating users, saving events, etc.), there are a few features that elevate it beyond just CRUD:
+
+Real-Time Location-Based Search: Using geo-location services, the app dynamically updates event listings based on the user’s current or selected location, providing a highly interactive experience.
+
+API Integration: The integration of third-party event and geo-location APIs adds a layer of complexity, providing real-time event data from external sources.
+
+Personalization: The app will recommend events based on the user’s previous searches and favorites, offering a personalized experience.
+
+
+Stretch Goals:
+Push Notifications: Implement notifications for upcoming events or new events matching the user’s preferences.
+Advanced Search Features: Allow users to search based on specific interests, ticket prices, or even event popularity.
+Map Integration: Display events on an interactive map, allowing users to visualize event locations relative to their current position.
+Social Features: Enable users to RSVP for events, see friends attending similar events, or create custom groups to attend events together.
+Mobile App: Eventually, create a mobile app version for Android/iOS to provide a seamless user experience across all platforms.
+
